@@ -61,7 +61,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Clicky Game!</Title>
+        <Title>Paid In Full Clicky Game!</Title>
     High Score: <span> {this.state.highscore}</span>  Score:  <span>{this.state.score}</span>
         {this.state.friends.map(friend => (
           <FriendCard
